@@ -30,9 +30,7 @@ _Y finalmente_
 sudo apt-get install -y nasm
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-### Ejecucion
+### Ejecución
 
 _A continuación se muestra como ejecutar el programa con NAMS_
 
