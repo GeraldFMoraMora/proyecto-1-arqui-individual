@@ -16,32 +16,37 @@ _Para la parte de la visualización de la imagen se implementaron las siguientes
 * [Jupyter NoteBook](https://jupyter.org/install.html) - IDLE con interprete para Python 3.
 * [NumPy](https://numpy.org/install/) - Librería para crear las imagenes con la matriz de Bytes.
 
-### Instalación 🔧
+### Instalación
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
+_A continuación se muestra como instalar nasm en linux_
 
 ```
-Da un ejemplo
+sudo apt-get update -y
 ```
 
-_Y repite_
+_Y finalmente_
 
 ```
-hasta finalizar
+sudo apt-get install -y nasm
 ```
 
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
-### Y las pruebas de estilo de codificación ⌨️
+### Ejecucion
 
-_Explica que verifican estas pruebas y por qué_
+_A continuación se muestra como ejecutar el programa con NAMS_
 
 ```
-Da un ejemplo
+nasm -f elf64 proyecto1.asm
 ```
-
+_Luego_
+```
+ld proyecto1.o -o proyecto1
+```
+_Finalmente_
+```
+./proyecto1
+```
 
 ## Autor
 
