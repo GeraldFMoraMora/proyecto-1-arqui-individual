@@ -32,7 +32,7 @@ sudo apt-get install -y nasm
 
 ### Ejecución
 
-_A continuación se muestra como ejecutar el programa con NAMS_
+_A continuación se muestra como ejecutar el programa con NAMS desde la consola_
 
 ```
 nasm -f elf64 proyecto1.asm
